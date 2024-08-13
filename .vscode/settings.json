@@ -1,0 +1,16 @@
+{
+    "azureFunctions.deploySubpath": "src/api",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.projectSubpath": "src/api",
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/api",
+        "proxyUri": "http://127.0.0.1:7071/api"
+    }
+}

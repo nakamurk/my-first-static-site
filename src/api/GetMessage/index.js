@@ -1,5 +1,6 @@
 module.exports = async function (context, req) {
     context.res = {
-        body: { text: "Hello from the API" }
-    }
+        // status: 200, /* Defaults to 200 */
+        body: { text: "Hello from js." } 
+    };
 }
